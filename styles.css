@@ -1,0 +1,164 @@
+/* "#000000","#502f4c","#70587c","#c8b8db","#f9f4f5"] */
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {}
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {}
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {}
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+   .carousel-item {
+     height: 20rem;
+   }
+ }
+
+ /* Extra large devices (large desktops) */
+ /* No media query since the extra-large breakpoint has no upper bound on its width */
+ .navbar {
+   padding: 1% 10%;
+ }
+
+ .navbar-brand {
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-weight: 700;
+   font-size: 200%;
+ }
+
+ .bg-light {
+   background-color: white !important;
+ }
+
+ #head i {
+   color: black;
+ }
+
+ #head i:hover {
+   font-weight: bold;
+   color: #c8b8db;
+ }
+
+ /* ------------------------------------------------------------------------ */
+ #carousel {}
+
+ /* ------------------------------------------------------------------------ */
+ #navbar-product {
+   text-align: center;
+   padding-top: 1rem;
+ }
+
+ /* Style the tab */
+
+ /* Style the buttons that are used to open the tab content */
+ .tab button {
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-weight: 300;
+   background-color: inherit;
+   float: none;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 3%;
+   transition: 0.3s;
+ }
+
+ /* Change background color of buttons on hover */
+ .tab button:hover {
+   background-color: #F9F4F5;
+   color: #000000;
+   border-radius: 5px;
+ }
+
+ /* Create an active/current tablink class */
+ .tab button.active {
+   background-color: #ccc;
+ }
+
+ /* Style the tab content */
+ /* .tabcontent {
+   display: none;
+   padding: 6px 12px;
+   border: 1px solid #ccc;
+   border-top: none;
+ } */
+
+ hr {
+   margin: 0;
+ }
+
+ /* --------------------------------------------------------------------- */
+
+ #available-product {
+   text-align: center;
+ }
+
+ #available-product img {
+   width: 100px;
+   margin: 2%;
+ }
+
+ /* ---------------------------------subscription--------------------------- */
+
+ #subscription {
+   font-family: 'Montserrat Alternates', sans-serif;
+   text-align: center;
+ }
+
+ #subscription .text {
+   margin: 17px;
+   padding: 15px;
+ }
+
+ #subscription .text h1 {
+   font-weight: 500;
+ }
+
+#subscription .text p {
+  margin-bottom: 0px;
+}
+
+ .my-form {
+   margin: 17px;
+ }
+
+ #subscription .my-button {
+   font-weight: 300;
+   background-color: black;
+   color: white;
+   float: none;
+   border: none;
+   border-radius: 2px;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 3%;
+   transition: 0.3s;
+   margin: 15px;
+ }
+
+ #subscription .my-button:hover {
+   background-color: #502F4C;
+ }
+
+ .my-email {
+   text-align: center;
+   font-weight: 300;
+   margin: 1%;
+   padding: 14px 3%;
+ }
+
+ #subscription hr {
+   background-color: #502f4c;
+   opacity: 20%;
+   width: 10rem;
+   margin: auto;
+ }
+
+ /* ----------------------------------------------------------------------- */
+ #contact-us {
+   background-color: #502f4c;
+ }
