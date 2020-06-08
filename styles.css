@@ -1,22 +1,4 @@
 /* "#000000","#502f4c","#70587c","#c8b8db","#f9f4f5"] */
- /* Extra small devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) {}
-
- /* Small devices (landscape phones, 576px and up) */
- @media (min-width: 576px) and (max-width: 767.98px) {}
-
- /* Medium devices (tablets, 768px and up) */
- @media (min-width: 768px) and (max-width: 991.98px) {}
-
- /* Large devices (desktops, 992px and up) */
- @media (min-width: 992px) and (max-width: 1199.98px) {}
-
- /* Extra large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px) {
-   .carousel-item {
-     height: 20rem;
-   }
- }
 
  /* Extra large devices (large desktops) */
  /* No media query since the extra-large breakpoint has no upper bound on its width */
@@ -36,6 +18,7 @@
 
  #head i {
    color: black;
+   transition: 0.3s;
  }
 
  #head i:hover {
@@ -87,7 +70,7 @@
    border-top: none;
  } */
 
- hr {
+hr {
    margin: 0;
  }
 
@@ -160,5 +143,140 @@
 
  /* ----------------------------------------------------------------------- */
  #contact-us {
-   background-color: #502f4c;
+   background-color: #380631;
+   color: white;
+   text-align: center;
+   font-family: 'Montserrat Alternates', sans-serif;
+   margin-top: 5rem;
+ }
+
+ /* budak amerika */
+
+ #contact-us #cu-ba {
+   padding-left: 10%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+ }
+
+ #contact-us #cu-ba h2 {
+   font-weight: 700;
+   color: #c8b8db;
+ }
+
+ /* contact us */
+
+ #contact-us #cu-contactus {
+   text-align: left;
+   padding: 5% 5%;
+ }
+
+ td {
+   padding: 10px 10px;
+ }
+
+ /* follow us */
+#contact-us #cu-followus {
+  text-align: left;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#contact-us .myicons {
+  color: black;
+}
+
+.followus-icons {
+  margin-top: 1.5rem;
+}
+
+.fa-stack {
+  font-size: 1.3em!important;
+}
+
+.fa-circle {
+  color: white;
+}
+
+.followus-icons .nav-link {
+  display: inline-block;
+  padding: 10px 0;
+
+}
+
+.followus-icons .nav-link .myicons{
+  transition: 0.3s;
+
+}
+
+.followus-icons .nav-link .myicons:hover {
+  color: red!important;
+}
+
+.copyright {
+  padding: 20px;
+}
+
+.copyright p {
+  margin: 0;
+  color: gray;
+}
+
+
+ /* ------------------------------------------------------------------------ */
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+   #contact-us #cu-contactus {
+     text-align: center;
+     padding: 2% 5%;
+   }
+
+   td {
+     padding: 10px 10px;
+     text-align: left;
+   }
+
+   table {
+     margin-left: 10%;
+   }
+
+   #contact-us #cu-followus {
+     text-align: center;
+     padding: 5% 5%;
+   }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+   #contact-us #cu-contactus {
+     text-align: center;
+     padding: 2% 5%;
+   }
+
+   td {
+     padding: 10px 10px;
+     text-align: left;
+   }
+
+   table {
+     margin-left: 10%;
+   }
+   #contact-us #cu-followus {
+     text-align: center;
+     padding: 5% 5%;
+   }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {}
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+   .carousel-item {
+     height: 20rem;
+   }
  }
