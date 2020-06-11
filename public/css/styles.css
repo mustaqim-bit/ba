@@ -59,23 +59,35 @@
 
  /* Create an active/current tablink class */
  .tab button.active {
-   background-color: #ccc;
+   background-color: #c8b8db;
+   border-radius: 5px;
  }
 
  /* Style the tab content */
- /* .tabcontent {
+ .tabcontent {
    display: none;
-   padding: 6px 12px;
-   border: 1px solid #ccc;
-   border-top: none;
- } */
+ }
+
+ .tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.tabcontent.active {
+    display: block;
+}
 
 hr {
    margin: 0;
  }
 /* -----------------------my products---------------------------------------- */
 #my-products{
-    margin: 3rem;
+    margin: 2rem;
 }
 
 .container {
@@ -84,6 +96,16 @@ hr {
 
 .card {
     margin: 1em 0;
+}
+
+.card-img {
+    width: 13rem;
+    height: 13rem;
+    margin: auto;
+}
+
+.product-card {
+    margin: 0 0em;
 }
 
  /* --------------------------------------------------------------------- */
